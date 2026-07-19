@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DE AI Photography Studio</title>
+    <title>AI Photography Studio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,8 +18,10 @@
         <div id="catalog-grid" class="grid-container"></div>
     </main>
 
-    <!-- Load Supabase first, then our custom logic -->
+    <!-- Load Supabase first from the internet CDN -->
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    <script src="app.js"></script>
+    
+    <!-- Link to the script inside the assets/js folder -->
+    <script src="assets/js/app.js"></script>
 </body>
 </html>
